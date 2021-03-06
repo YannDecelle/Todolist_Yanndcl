@@ -15,7 +15,6 @@ export default {
   name: 'todo_list',
   methods:
   {
-
     addElement: function ()
     {
         console.log('Element created');
@@ -26,10 +25,6 @@ export default {
         console.log('Element deleted');
         this.tasks.push();
     },
-    elementInt: function ()
-    {
-        console.log('gjfdoshgfdskghfdsfgf');
-    }
   },
     data() {
     return {

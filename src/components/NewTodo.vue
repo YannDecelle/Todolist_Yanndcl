@@ -5,10 +5,6 @@
     </form>
 </template>
 <script>
-import TodoList from './TodoList.vue'
-{
-  
-}
 export default {
   name: 'new-todo',
   props: {

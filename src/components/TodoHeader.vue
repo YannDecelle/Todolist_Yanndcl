@@ -2,11 +2,12 @@
         <header>
           <p class="placeholder">{{DateTime()}}</p>
           <p class="placeholder" id="title">Exercice VueJS TodoList</p>
-          <p class="placeholder">{{tasks.length + ' Tâche(s)'}}</p>      
+          <p class="placeholder">{{tasks() +' Tâches'}}</p>      
         </header>
 </template>
 
 <script>
+import TodoList from './TodoList';
 export default {
   name: 'todo-header',
   methods: 
@@ -41,7 +42,9 @@ export default {
 
     tasks()
     {
-      return null;
+      var Int = TodoList.data().tasks;
+      var TaskNum = Int.length;
+      return TaskNum;
     }
   },
   props: {
