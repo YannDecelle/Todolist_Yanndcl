@@ -29,12 +29,12 @@ export default {
     data() {
     return {
       tasks: [
-        { task: 'Premier' },
-        { task: 'Deuxième' },
-        { task: 'Troisième' },
-        { task: 'Quatrième' },
-        { task: 'Cinquième' },
-        { task: 'Sixième' }
+        {id: 1, task: 'Premier'},
+        {id: 2, task: 'Premier'},
+        {id: 3, task: 'Premier'},
+        {id: 4, task: 'Premier'},
+        {id: 5, task: 'Premier'},
+        {id: 6, task: 'Premier'},
       ]
     };
   },
